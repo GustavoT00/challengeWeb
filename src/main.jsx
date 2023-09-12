@@ -8,6 +8,6 @@ import FirstApp from './FirstApp'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
-    <FirstApp />
+    <FirstApp title="My first App" />
   </React.StrictMode>,
 )
