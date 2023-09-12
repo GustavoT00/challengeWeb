@@ -8,6 +8,8 @@ import FirstApp from './FirstApp'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
-    <FirstApp title="My first App" />
+    <FirstApp title="My first App" value={10}/>
+    <ComponentApp/>
+    <GiftExpertDApp/>
   </React.StrictMode>,
 )
