@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { AddCategory } from './Hijos/AddCategory'
-import { GiftGrid } from './Hijos/GiftGrid'
+import { CategoryAdd } from '../Hijos/CategoryAdd'
+import { GiftGrid } from '../Hijos/GiftGrid'
 
 export const GiftExpertDApp = () =>{
     const [categories, setCategories] = useState(['Zodiac'])
@@ -13,12 +13,12 @@ export const GiftExpertDApp = () =>{
         <>
             <h1>Gift Expert</h1>
 
-            <AddCategory onAddCategory={onAddCategory}/>
+            <CategoryAdd onAddCategory={onAddCategory}/>
             {
                 categories.map(
                     (category,key) =>
                     {
-                        return <GiftGrid category={category} key={key}/>
+                        return <GiftGrid  category={category} key={key}/>
                     }
                 )
             }

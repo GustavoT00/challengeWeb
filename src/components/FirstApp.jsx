@@ -52,4 +52,4 @@ FirstApp.defaultProps = {
 }
 
 
-export default FirstApp
+export default FirstApp;

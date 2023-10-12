@@ -1,4 +1,3 @@
-
 const categories = ['first category', 'second category']
 
 

@@ -1,5 +1,3 @@
-
-
 export const GiftGrid = ({category}) => {
 
     console.log(category)
